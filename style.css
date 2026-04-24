@@ -1,0 +1,201 @@
+/* =========================
+   SNAPVERSE - ARTISTIC PORTFOLIO
+========================= */
+
+/* GLOBAL BACKGROUND */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fff1eb, #ace0f9, #fad0c4);
+    background-attachment: fixed;
+    color: #222222;
+}
+
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #3324bb, #4b9e4f);
+    color:#92866c;
+    text-align: center;
+    padding: 40px 20px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+/* INTRO */
+.intro {
+    text-align: center;
+    padding: 25px;
+    font-style: italic;
+    font-size: 18px;
+    color: #555;
+}
+
+/* BIOGRAPHY + OWNER SECTION */
+.bio img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    border: 4px solid #f1c40f;
+    display: block;
+    margin: 0 auto 15px auto;
+    
+}
+
+/* PROFILE IMAGE */
+.bio img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #3d3c37;
+}
+
+/* DESIGN SECTION */
+.design {
+    background: #ffffff;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-left: 6px solid #9b59b6;
+}
+
+.design img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+/* GALLERY */
+.gallery {
+    padding: 30px 20px;
+    text-align: center;
+}
+.gallery-img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.9);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox:target {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 150vw;
+    max-height: 150vh;
+    object-fit: contain;
+}
+
+
+/* GRID (if not added already) */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* IMAGES */
+.grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.grid img:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT FORM */
+.contact {
+    background: #ffffff;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-left: 6px solid #2ecc71;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact input,
+.contact textarea {
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* INPUT FOCUS */
+.contact input:focus,
+.contact textarea:focus {
+    border: 2px solid #3498db;
+}
+
+/* BUTTON */
+.contact button {
+    margin-top: 15px;
+    padding: 12px;
+    background: linear-gradient(90deg, #111, #333);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+
+/* BUTTON HOVER */
+.contact button:hover {
+    background: linear-gradient(90deg, #03471f, #01421c2a);
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #b63e88, #441527);
+    color: #f1c40f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 14px;
+}
