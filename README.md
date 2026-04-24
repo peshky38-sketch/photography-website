@@ -12,7 +12,7 @@ This is a photography portfolio website that showcases my favorite photos, biogr
 3. Ensure images are in the images folder
 
 ## Live Site
-https://yourusername.github.io/photography-portfolio/
+https://peshky38-sketch.github.io/photography-website/
 
 ## Features
 - Photo gallery
