@@ -1,24 +1,28 @@
-#  Photography Website
-
-## Project Name
-SnapVerse Website
+# Photography Portfolio Website
 
 ## Author
-Louise Gathoni
+Rachel Angela
 
 ## Description
-A simple photography portfolio website showing favorite photos, biography, and a contact form.
+This is a photography portfolio website that showcases my favorite photos, biography, and a contact form.
 
 ## Setup Instructions
-1. Open folder
-2. Click index.html
-3. Open in browser
+1. Download or clone the repository
+2. Open index.html in your browser
+3. Ensure images are in the images folder
 
 ## Live Site
-https://yourusername.github.io/photography-website/
+https://yourusername.github.io/photography-portfolio/
 
-## Copyright
-© 2026 Rachel Angela
+## Features
+- Photo gallery
+- Biography section
+- Contact form
+- Responsive design
+
+## Technologies Used
+- HTML
+- CSS
 
 ## License
-MIT License
+Apache License 2.0
