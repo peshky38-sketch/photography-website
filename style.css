@@ -11,6 +11,10 @@ body {
   background-color: #0d1b2a;
   text-align: center;
 }
+.container {
+  width: 90%;
+  margin: auto;
+}
 
 
 /* HEADER */
