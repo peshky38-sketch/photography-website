@@ -116,6 +116,7 @@ h2 {
     transition: 0.4s ease;
     cursor: pointer;
     margin: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
 .gallery img:hover {
