@@ -15,7 +15,7 @@ A simple photography portfolio website showing favorite photos, biography, and a
 3. Open in browser
 
 ## Live Site
-https://yourusername.github.io/photography-website/
+https://peshky38-sketch.github.io/photography-website/
 
 ## Copyright
 © 2026 Rachel Angela
