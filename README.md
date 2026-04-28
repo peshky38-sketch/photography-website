@@ -21,4 +21,4 @@ https://peshky38-sketch.github.io/photography-website/
 © 2026 Rachel Angela
 
 ## License
-MIT License
+Apache 2.0 License
